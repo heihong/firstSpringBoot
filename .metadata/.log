@@ -2527,3 +2527,116 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 12:18:59.902
 !MESSAGE executing callback sts4.classpath.ikvPUgTr SUCCESS [done]
+!SESSION 2019-09-13 15:43:19.010 -----------------------------------------------
+eclipse.buildId=4.3.2.201908130627-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-09-13 15:43:23.391
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-13 15:43:25.303
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-13 15:43:26.655
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-13 15:43:26.655
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49153009,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a1b7549,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:39.103
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:39.145
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1518161[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=624)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:39.153
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-13 15:43:39.410
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\formation'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:39.612
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.243
+!MESSAGE Boot LS startup time from start to initialized: 9989ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.316
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JcxdghVcisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.317
+!MESSAGE subscribing to classpath changes: sts4.classpath.JcxdghVc isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.329
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.332
+!MESSAGE subsribers = {sts4.classpath.JcxdghVc=Send Classpath Notifications(71)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.333
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.345
+!MESSAGE project das-boot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.347
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.347
+!MESSAGE Preparing classpath changed notification das-boot
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.348
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JcxdghVc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.351
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.380
+!MESSAGE classpath=88 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.389
+!MESSAGE buffering callback sts4.classpath.JcxdghVc das-boot false 88
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.391
+!MESSAGE executing callback sts4.classpath.JcxdghVc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 15:43:49.455
+!MESSAGE executing callback sts4.classpath.JcxdghVc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 16:08:05.435
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JcxdghVc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 16:08:05.436
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.JcxdghVc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 16:08:05.437
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 16:08:05.438
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JcxdghVc => OK
+
+!ENTRY org.eclipse.ui 2 2 2019-09-13 16:08:06.018
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

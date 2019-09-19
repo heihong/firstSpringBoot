@@ -25,12 +25,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.boot.kata"/>
 			<item value="com.boot"/>
 		</list>
 		<list key="groupId">
 			<item value="com.boot"/>
 		</list>
 		<list key="artifactId">
+			<item value="kata"/>
 			<item value="das-boot"/>
 		</list>
 		<list key="projectNameTemplate">
